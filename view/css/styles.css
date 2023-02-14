@@ -1,19 +1,20 @@
-.btn:focus, .btn-shorten:focus{
+.btn:focus,
+.btn-shorten:focus {
   outline: 0 !important;
 }
 
 html,
 body {
   height: 100%;
-  background-color: #FFE200;
+  background-color: #ffe200;
 }
 
 body {
   color: #fff;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
 }
-
 .btn-shorten {
   color: #ffffff;
   background-color: #673ab7;
@@ -68,8 +69,8 @@ body {
   padding-top: 15px;
 }
 
-#link a{
-  color: #1A237E;
+#link a {
+  color: #1a237e;
   font-size: 1.5em;
   margin-right: 20px;
 }

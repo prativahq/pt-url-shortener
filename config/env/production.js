@@ -4,6 +4,6 @@ module.exports = {
     port: 3306,
     database: 'shortener',
     username: 'root',
-    password: 'root',
+    password: '',
   },
 };
