@@ -10,7 +10,7 @@ module.exports = {
     host: "pt-url-server.mysql.database.azure.com",
     user: "pturl",
     password: "#server123",
-    database: "shortener_dev",
+    database: "shortener",
     port: 3306,
     ssl: {
       ca: fs.readFileSync(
