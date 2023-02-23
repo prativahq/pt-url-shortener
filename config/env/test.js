@@ -14,7 +14,7 @@ module.exports = {
     port: 3306,
     ssl: {
       ca: fs.readFileSync(
-        "D:\\Parentheses\\mysql-nodejs\\BaltimoreCyberTrustRoot.crt.pem"
+        "/Users/user/Documents/prativa/pt-url/pt-url-shortener/BaltimoreCyberTrustRoot.crt.pem"
       ),
     },
   },

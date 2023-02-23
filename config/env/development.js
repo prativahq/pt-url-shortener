@@ -2,11 +2,11 @@ const fs = require("fs");
 
 module.exports = {
   mysql: {
-    // host: "localhost",
+    // host: 'localhost',
     // port: 3306,
-    // database: "shortener_dev",
-    // username: "root",
-    // password: "",
+    // database: 'shortener_dev_dev',
+    // username: 'root',
+    // password: '',
     host: "pt-url-server.mysql.database.azure.com",
     user: "pturl",
     password: "#server123",
@@ -14,8 +14,9 @@ module.exports = {
     port: 3306,
     ssl: {
       ca: fs.readFileSync(
-        "D:\\Parentheses\\mysql-nodejs\\BaltimoreCyberTrustRoot.crt.pem"
+        "/Users/user/Documents/prativa/pt-url/pt-url-shortener/BaltimoreCyberTrustRoot.crt.pem"
       ),
     },
   },
 };
+
