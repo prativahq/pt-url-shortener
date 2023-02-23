@@ -1,6 +1,6 @@
 const app = require('./config/express');
 const Url = require('./api/models/Url');
-
+console.log({app,Url});
 Url.sync({ force: true });
 
 const port = parseInt(process.env.PORT, 10) || 3000;
