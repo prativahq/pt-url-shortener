@@ -1,6 +1,6 @@
-const { sequelize, Sequelize } = require('../../config/sequelize');
+const { sequelize, Sequelize } = require("../../config/sequelize");
 
-const Url = sequelize.define('Url', {
+const Url = sequelize.define("Url", {
   id: {
     type: Sequelize.INTEGER,
     autoIncrement: true,
